@@ -14,11 +14,7 @@ spec:
     spec:
       containers:
         - name: server
-          image: viscarra97/multi-server 
-          resources:
-            limits:
-              memory: "128Mi"
-              cpu: "500m"
+          image: viscarra97/multi-server
           ports:
             - containerPort: 5000
           env:
